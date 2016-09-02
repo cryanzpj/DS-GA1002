@@ -1,0 +1,139 @@
+x = c(0,100,100,0)#
+y = c(300,300,100,100)#
+polygon(x,y,col =gray(0.8))
+plot(x,y)
+polygon(x,y,col =gray(0.8))
+plot(x1,y1,type = 'l' )
+x1 = c(0,100,100,0)
+y1 = c(300,300,100,100)
+plot(x1,y1,type = 'l' )
+x1 = c(0,100,100,0,0)
+y1 = c(300,300,100,100,300)
+plot(x1,y1,type = 'l' )
+polygon(x,y,col =gray(0.8))
+polygon(x,y,col =gray(0.2))
+polygon(x,y,col =gray(1))
+polygon(x,y,col =gray(0.9))
+plot(x1,y1,type = 'l' ,ylim = c(0,300),xlim = c(0,300))
+plot(x1,y1,type = 'l' ,ylim = c(0,300),xlim = c(0,400))
+plot(x1,y1,type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+x1 = c(0,100,100,0,0)#
+y1 = c(300,300,100,100,300)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)
+x1 = c(0,100,100,0,0)#
+y1 = c(300,300,100,100,300)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)
+plot(x2,y2,type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+x1 = c(0,100,100,0,0)#
+y1 = c(300,300,100,100,300)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)
+plot(x3,y3,type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+plot(c(x1,x2),c(y1,y2),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+y1 = c(300,300,100,100)
+x1 = c(0,100,100,0)
+plot(c(x1,x2),c(y1,y2),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)
+plot(c(x1,x2,x3),c(y1,y2,x3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))#
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)#
+#
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))
+points(50,200,'f = 1/120000')
+points(50,200,'f')
+texts(50,200,'f')
+text(50,200,'f')
+text(50,200,'f = 1/120000')
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400))#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))
+text(50,200,'f = 1/120000')
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)#
+#
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400),main = Joint PDF of X and R ,xlab = 'X',ylab = 'R')#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))#
+#
+text(50,200,'f = 1/120000')#
+text(200,50,'f = 1/120000')#
+text(200,200,'f = 1/60000')
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400),main = 'Joint PDF of X and R' ,xlab = 'X',ylab = 'R')#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))#
+#
+text(50,200,'f = 1/120000')#
+text(200,50,'f = 1/120000')#
+text(200,200,'f = 1/60000')
+png(filename="/Users/cryan/Desktop/1002/as3/Q2_a.png",width = 600,height= 600)
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)#
+#
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400),main = 'Joint PDF of X and R' ,xlab = 'X',ylab = 'R')#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))#
+#
+text(50,200,'f = 1/120000')#
+text(200,50,'f = 1/120000')#
+text(200,200,'f = 1/60000')
+dev.off()
+x1 = c(100,0,0,100,100)#
+y1 = c(100,100,300,300,100)#
+x2 = c(100,300,300,100,100)#
+y2 = c(100,100,0,0,100)#
+x3 = c(100,300,300,100,100)#
+y3 = c(300,300,100,100,300)#
+#
+plot(c(x1,x2,x3),c(y1,y2,y3),type = 'l' ,ylim = c(0,400),xlim = c(0,400),main = 'Joint PDF of X and R' ,xlab = 'X',ylab = 'R')#
+polygon(x1,y1,col =gray(0.9))#
+polygon(x2,y2,col = gray(0.9))#
+polygon(x3,y3,col = gray(0.6))#
+#
+text(50,200,'f = 1/120000')#
+text(200,50,'f = 1/120000')#
+text(200,200,'f = 1/60000')
+ls
